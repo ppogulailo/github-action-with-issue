@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
       - name: Install Dependencies
         run: npm ci
       - name: Lint code
@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
       - name: Install Dependencies
         run: npm ci
       - name: Test code
@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
       - name: Install Dependencies
         run: npm ci
       - name: Build code
@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
       - name: Install Dependencies
         run: npm ci
       - name: Deploy
